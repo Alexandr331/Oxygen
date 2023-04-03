@@ -1,0 +1,55 @@
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: -webkit-fill-available;
+}
+
+.section_bg-color_gray {
+  background-color: #F6F8FA;
+}
+
+
+#map {
+  height: 900px;
+}
